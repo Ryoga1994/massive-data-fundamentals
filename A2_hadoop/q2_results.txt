@@ -1,0 +1,15 @@
+#
+# Your results go into this file.
+# They will be written as JSON objects
+{"output": "output-2017-01-30T22-30-09", "input:": "s3://gu-anly502/A1/quazyilx1.txt", "seconds": 126.84798812866211, "node": "ip-172-31-43-150", "nodes": 5, "date": 1485815538.2585084}
+{"seconds": 408.3658244609833, "node": "ip-172-31-43-150", "input:": "s3://gu-anly502/A1/quazyilx2.txt", "output": "output-2017-01-30T23-16-42", "nodes": 5, "date": 1485818612.7844806}
+{"output": "output-2017-01-30T23-24-32", "nodes": 5, "seconds": 796.0547862052917, "node": "ip-172-31-43-150", "date": 1485819469.7137814, "input:": "s3://gu-anly502/A1/quazyilx3.txt"}
+{"node": "ip-172-31-43-150", "nodes": 7, "input:": "s3://gu-anly502/A1/quazyilx1.txt", "output": "output-2017-01-30T23-43-41", "seconds": 107.96477007865906, "date": 1485819931.4366348}
+{"output": "output-2017-01-30T23-45-56", "seconds": 300.9214963912964, "input:": "s3://gu-anly502/A1/quazyilx2.txt", "date": 1485820260.1467159, "nodes": 7, "node": "ip-172-31-43-150"}
+{"date": 1485820854.1675322, "node": "ip-172-31-43-150", "seconds": 577.4071986675262, "nodes": 7, "input:": "s3://gu-anly502/A1/quazyilx3.txt", "output": "output-2017-01-30T23-51-15"}
+{"output": "output-2017-02-01T06-11-16", "nodes": 2, "node": "ip-172-31-34-152", "seconds": 410.63939809799194, "date": 1485929888.533324, "input:": "s3://gu-anly502/A1/quazyilx1.txt"}
+{"input:": "s3://gu-anly502/A1/quazyilx2.txt", "date": 1485933636.3732207, "nodes": 2, "node": "ip-172-31-34-152", "seconds": 969.6531522274017, "output": "output-2017-02-01T07-04-25"}
+{"seconds": 1989.7542235851288, "date": 1485936574.3575754, "node": "ip-172-31-34-152", "output": "output-2017-02-01T07-36-22", "nodes": 2, "input:": "s3://gu-anly502/A1/quazyilx3.txt"}
+{"input:": "s3://gu-anly502/A1/quazyilx1.txt", "output": "output-2017-02-01T08-17-39", "nodes": 3, "date": 1485937266.7856593, "seconds": 205.12803268432617, "node": "ip-172-31-34-152"}
+{"input:": "s3://gu-anly502/A1/quazyilx2.txt", "node": "ip-172-31-34-152", "output": "output-2017-02-01T08-22-27", "nodes": 3, "seconds": 660.8558256626129, "date": 1485938010.077847}
+{"seconds": 1311.213860988617, "input:": "s3://gu-anly502/A1/quazyilx3.txt", "output": "output-2017-02-01T08-34-09", "date": 1485939362.2885294, "nodes": 3, "node": "ip-172-31-34-152"}

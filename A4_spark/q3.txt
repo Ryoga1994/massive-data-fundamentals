@@ -1,0 +1,4 @@
+Q: Which is more efficient: top1m.collect()[0:50] or top1m.take(50)? Why? 
+-----------------
+
+top1m.take(50) should be more efficient since it only takes the first 50 elements while the tao1m.collect() function would collecting the entire RDD and then return first 50 elements.

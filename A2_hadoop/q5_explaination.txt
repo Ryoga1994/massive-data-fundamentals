@@ -1,0 +1,8 @@
+Part 5: EXTRA CREDIT Finding the top-10 hits
+
+-q5_combiner.py: write a class inherited from MRJOB, overwrite function mapper and reducer to find all urls and count for each. Then, find top 10 hit urls with hitted value.
+
+-q5_plot.py: read results from q5_result.txt and parse the text form, then plot bargraph using matplotlib. Save plot in q5_plot.png and q5_plot.pdf.
+
+
+

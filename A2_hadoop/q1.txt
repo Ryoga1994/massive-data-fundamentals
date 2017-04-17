@@ -1,0 +1,23 @@
+Enter your AWS ClI epxort command for the basic cluster with three nodes:
+
+
+0: <aws emr create-cluster --applications Name=Ganglia Name=Hadoop Name=Hive Name=Hue Name=Mahout Name=Pig Name=Tez --ec2-attributes '{"KeyName":"rw_pub","InstanceProfile":"EMR_EC2_DefaultRole","SubnetId":"subnet-2617931a","EmrManagedSlaveSecurityGroup":"sg-a3208ddf","EmrManagedMasterSecurityGroup":"sg-a1208ddd"}' --service-role EMR_DefaultRole --enable-debugging --release-label emr-5.3.0 --log-uri 's3n://aws-logs-841431151988-us-east-1/elasticmapreduce/' --name 'My cluster' --instance-groups '[{"InstanceCount":2,"InstanceGroupType":"CORE","InstanceType":"m3.xlarge","Name":"Core Instance Group"},{"InstanceCount":1,"InstanceGroupType":"MASTER","InstanceType":"m3.xlarge","Name":"Master Instance Group"}]' --scale-down-behavior TERMINATE_AT_INSTANCE_HOUR --region us-east-1>
+
+
+Answer these questions:
+
+Where are the log files stored?
+
+1:s3n://aws-logs-841431151988-us-east-1/elasticmapreduce/
+
+In what region was the cluster created:
+
+2:us-east-1
+
+What applications were included with the cluster?
+
+3:Ganglia, Hadoop, Hive, Hue, Mahout, Pig, Tez
+
+
+
+
